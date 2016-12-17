@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DF957E1DFF9A38006031B4 /* CalculatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF957D1DFF9A38006031B4 /* CalculatorManager.m */; };
+		26DF95811DFF9C6E006031B4 /* NSObject+Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF95801DFF9C6E006031B4 /* NSObject+Calculator.m */; };
+		26DF95841DFFA046006031B4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF95831DFFA046006031B4 /* Calculator.m */; };
+		26DF95881DFFE145006031B4 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DF95861DFFE145006031B4 /* TwoViewController.m */; };
+		26DF95891DFFE145006031B4 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DF95871DFFE145006031B4 /* TwoViewController.xib */; };
+		26FEFC531DF96C1200B674C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFC521DF96C1200B674C1 /* main.m */; };
+		26FEFC561DF96C1200B674C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFC551DF96C1200B674C1 /* AppDelegate.m */; };
+		26FEFC591DF96C1200B674C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FEFC581DF96C1200B674C1 /* ViewController.m */; };
+		26FEFC5C1DF96C1200B674C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEFC5A1DF96C1200B674C1 /* Main.storyboard */; };
+		26FEFC5E1DF96C1200B674C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FEFC5D1DF96C1200B674C1 /* Assets.xcassets */; };
+		26FEFC611DF96C1200B674C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEFC5F1DF96C1200B674C1 /* LaunchScreen.storyboard */; };
+		A2F7520691386DCE7C2D5D4C /* libPods-ReactiveCocoa_Learn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA450EE8B1A910BD5C348C8 /* libPods-ReactiveCocoa_Learn.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26DF957C1DFF9A38006031B4 /* CalculatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorManager.h; sourceTree = "<group>"; };
+		26DF957D1DFF9A38006031B4 /* CalculatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorManager.m; sourceTree = "<group>"; };
+		26DF957F1DFF9C6E006031B4 /* NSObject+Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculator.h"; sourceTree = "<group>"; };
+		26DF95801DFF9C6E006031B4 /* NSObject+Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Calculator.m"; sourceTree = "<group>"; };
+		26DF95821DFFA046006031B4 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		26DF95831DFFA046006031B4 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		26DF95851DFFE145006031B4 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		26DF95861DFFE145006031B4 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		26DF95871DFFE145006031B4 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		26FEFC4E1DF96C1200B674C1 /* ReactiveCocoa_Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoa_Learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FEFC521DF96C1200B674C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26FEFC541DF96C1200B674C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26FEFC551DF96C1200B674C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26FEFC571DF96C1200B674C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26FEFC581DF96C1200B674C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26FEFC5B1DF96C1200B674C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FEFC5D1DF96C1200B674C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FEFC601DF96C1200B674C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26FEFC621DF96C1200B674C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FEFC681DFA52E300B674C1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		91C0BE68C8410E010481124F /* Pods-ReactiveCocoa_Learn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa_Learn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa_Learn/Pods-ReactiveCocoa_Learn.debug.xcconfig"; sourceTree = "<group>"; };
+		AFA450EE8B1A910BD5C348C8 /* libPods-ReactiveCocoa_Learn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa_Learn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B887DE54D6A8BD3EAF849F9C /* Pods-ReactiveCocoa_Learn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa_Learn.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa_Learn/Pods-ReactiveCocoa_Learn.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FEFC4B1DF96C1200B674C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F7520691386DCE7C2D5D4C /* libPods-ReactiveCocoa_Learn.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1920B9FFAAB858E34576F4D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C0BE68C8410E010481124F /* Pods-ReactiveCocoa_Learn.debug.xcconfig */,
+				B887DE54D6A8BD3EAF849F9C /* Pods-ReactiveCocoa_Learn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26FEFC451DF96C1200B674C1 = {
+			isa = PBXGroup;
+			children = (
+				26FEFC501DF96C1200B674C1 /* ReactiveCocoa_Learn */,
+				26FEFC4F1DF96C1200B674C1 /* Products */,
+				1920B9FFAAB858E34576F4D2 /* Pods */,
+				7E2B5921CEF32AFE9EE164BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26FEFC4F1DF96C1200B674C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FEFC4E1DF96C1200B674C1 /* ReactiveCocoa_Learn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FEFC501DF96C1200B674C1 /* ReactiveCocoa_Learn */ = {
+			isa = PBXGroup;
+			children = (
+				26FEFC541DF96C1200B674C1 /* AppDelegate.h */,
+				26FEFC551DF96C1200B674C1 /* AppDelegate.m */,
+				26FEFC571DF96C1200B674C1 /* ViewController.h */,
+				26FEFC581DF96C1200B674C1 /* ViewController.m */,
+				26DF95851DFFE145006031B4 /* TwoViewController.h */,
+				26DF95861DFFE145006031B4 /* TwoViewController.m */,
+				26DF957C1DFF9A38006031B4 /* CalculatorManager.h */,
+				26DF957D1DFF9A38006031B4 /* CalculatorManager.m */,
+				26DF957F1DFF9C6E006031B4 /* NSObject+Calculator.h */,
+				26DF95801DFF9C6E006031B4 /* NSObject+Calculator.m */,
+				26DF95821DFFA046006031B4 /* Calculator.h */,
+				26DF95831DFFA046006031B4 /* Calculator.m */,
+				26DF95871DFFE145006031B4 /* TwoViewController.xib */,
+				26FEFC5A1DF96C1200B674C1 /* Main.storyboard */,
+				26FEFC5D1DF96C1200B674C1 /* Assets.xcassets */,
+				26FEFC5F1DF96C1200B674C1 /* LaunchScreen.storyboard */,
+				26FEFC621DF96C1200B674C1 /* Info.plist */,
+				26FEFC511DF96C1200B674C1 /* Supporting Files */,
+			);
+			path = ReactiveCocoa_Learn;
+			sourceTree = "<group>";
+		};
+		26FEFC511DF96C1200B674C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FEFC521DF96C1200B674C1 /* main.m */,
+				26FEFC681DFA52E300B674C1 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E2B5921CEF32AFE9EE164BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA450EE8B1A910BD5C348C8 /* libPods-ReactiveCocoa_Learn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FEFC4D1DF96C1200B674C1 /* ReactiveCocoa_Learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FEFC651DF96C1200B674C1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_Learn" */;
+			buildPhases = (
+				AB3AF80BDE81EC28E6C01EDD /* [CP] Check Pods Manifest.lock */,
+				26FEFC4A1DF96C1200B674C1 /* Sources */,
+				26FEFC4B1DF96C1200B674C1 /* Frameworks */,
+				26FEFC4C1DF96C1200B674C1 /* Resources */,
+				AB12A7AD9ECD4EF890376D73 /* [CP] Embed Pods Frameworks */,
+				2B5BED0C6F98A6B29D653B5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveCocoa_Learn;
+			productName = ReactiveCocoa_Learn;
+			productReference = 26FEFC4E1DF96C1200B674C1 /* ReactiveCocoa_Learn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FEFC461DF96C1200B674C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chenzhongsong;
+				TargetAttributes = {
+					26FEFC4D1DF96C1200B674C1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 82JWWP84NH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26FEFC491DF96C1200B674C1 /* Build configuration list for PBXProject "ReactiveCocoa_Learn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FEFC451DF96C1200B674C1;
+			productRefGroup = 26FEFC4F1DF96C1200B674C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FEFC4D1DF96C1200B674C1 /* ReactiveCocoa_Learn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FEFC4C1DF96C1200B674C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FEFC611DF96C1200B674C1 /* LaunchScreen.storyboard in Resources */,
+				26FEFC5E1DF96C1200B674C1 /* Assets.xcassets in Resources */,
+				26FEFC5C1DF96C1200B674C1 /* Main.storyboard in Resources */,
+				26DF95891DFFE145006031B4 /* TwoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B5BED0C6F98A6B29D653B5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa_Learn/Pods-ReactiveCocoa_Learn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB12A7AD9ECD4EF890376D73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa_Learn/Pods-ReactiveCocoa_Learn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3AF80BDE81EC28E6C01EDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FEFC4A1DF96C1200B674C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DF95881DFFE145006031B4 /* TwoViewController.m in Sources */,
+				26FEFC591DF96C1200B674C1 /* ViewController.m in Sources */,
+				26FEFC561DF96C1200B674C1 /* AppDelegate.m in Sources */,
+				26DF95811DFF9C6E006031B4 /* NSObject+Calculator.m in Sources */,
+				26DF95841DFFA046006031B4 /* Calculator.m in Sources */,
+				26DF957E1DFF9A38006031B4 /* CalculatorManager.m in Sources */,
+				26FEFC531DF96C1200B674C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26FEFC5A1DF96C1200B674C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FEFC5B1DF96C1200B674C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26FEFC5F1DF96C1200B674C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FEFC601DF96C1200B674C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FEFC631DF96C1200B674C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FEFC641DF96C1200B674C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FEFC661DF96C1200B674C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C0BE68C8410E010481124F /* Pods-ReactiveCocoa_Learn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82JWWP84NH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReactiveCocoa_Learn/PrefixHeader.pch;
+				INFOPLIST_FILE = ReactiveCocoa_Learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eliteall.com.ReactiveCocoa-Learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26FEFC671DF96C1200B674C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B887DE54D6A8BD3EAF849F9C /* Pods-ReactiveCocoa_Learn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82JWWP84NH;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ReactiveCocoa_Learn/PrefixHeader.pch;
+				INFOPLIST_FILE = ReactiveCocoa_Learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eliteall.com.ReactiveCocoa-Learn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FEFC491DF96C1200B674C1 /* Build configuration list for PBXProject "ReactiveCocoa_Learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FEFC631DF96C1200B674C1 /* Debug */,
+				26FEFC641DF96C1200B674C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FEFC651DF96C1200B674C1 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_Learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FEFC661DF96C1200B674C1 /* Debug */,
+				26FEFC671DF96C1200B674C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26FEFC461DF96C1200B674C1 /* Project object */;
+}
