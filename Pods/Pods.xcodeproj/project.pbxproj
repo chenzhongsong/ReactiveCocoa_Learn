@@ -461,6 +461,7 @@
 			children = (
 				0C7D69DE3DE0291D488D7AC67231D07F /* NSArray+RACSequenceAdditions.h */,
 				25EF1722DC3A84B8DF7A7C48C497BDD9 /* NSArray+RACSequenceAdditions.m */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				948A49907EF9BDE67A4B19755B7AA481 /* NSData+RACSupport.h */,
 				A431A6F49BC22B68D8A753A982F2A928 /* NSData+RACSupport.m */,
 				6314FE25F96AF839E216C484FB0BA35F /* NSDictionary+RACSequenceAdditions.h */,
@@ -637,7 +638,6 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				7F385EB0BE016E6A4AC33AB0537D2E26 /* Pods */,
 				BBB12907189A42433759EDB310A1018C /* Products */,
 				4593EC7DE7BA54688C42C62924A46CAE /* Targets Support Files */,
@@ -667,6 +667,7 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D04E411E06BE7996B8ED2C8AB9634F75 /* no-arc */ = {
